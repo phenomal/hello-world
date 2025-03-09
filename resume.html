@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,114 +12,256 @@
             font-family: 'Arial', sans-serif;
             background-color: #f4f4f4;
         }
+
         .resume-container {
             background: white;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            margin: auto;
         }
+
         .sidebar {
             background: #2c3e50;
             color: white;
             padding: 20px;
             border-radius: 10px;
         }
-        h1, h2, h4 {
+
+        h1,
+        h2,
+        h4 {
             color: #2c3e50;
         }
+
         .contact-info i {
             color: #2980b9;
         }
+
         .section-title {
             border-bottom: 2px solid #2980b9;
             padding-bottom: 5px;
             margin-bottom: 15px;
         }
+
         .icon {
             margin-right: 10px;
             color: #2980b9;
         }
+
         .navbar {
             background-color: #2c3e50;
         }
-        .navbar .nav-link, .navbar-brand {
+
+        .navbar .nav-link,
+        .navbar-brand {
             color: white;
         }
+
         .navbar .nav-link:hover {
             color: #2980b9;
         }
+
+        h1 {
+            font-size: 1.7rem;
+            /* Adjust main heading size */
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            /* Adjust section titles */
+        }
+
+        h4 {
+            font-size: 1.0em;
+            /* Adjust job titles */
+        }
+
+        p,
+        li {
+            font-size: .8rem;
+            /* Adjust general text */
+        }
     </style>
 </head>
+
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Anthony Davis</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    
+
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-4 sidebar">
                 <h2 class="section-title text-white"><i class="fas fa-tools icon"></i>Skills</h2>
                 <ul>
                     <li>Software Quality Assurance</li>
-                    <li>Test Automation (Playwright, Selenium, Postman, etc.)</li>
-                    <li>Performance Testing (JMeter, Blazemeter)</li>
-                    <li>Mobile App Testing</li>
+                    <li>Test Automation</li>
+                    <li>Performance Testing</li>
                     <li>Release Management</li>
-                    <li>Azure DevOps</li>
-                    <li>Certified Scrum Master (PSM 1)</li>
-                    <li>Project Management</li>
-                    <li>PowerBi Reporting</li>
+                    <li>Project Managemant</li>
+                    <li>Engineering Management</li>
                 </ul>
-                <h2 class="section-title text-white" id="education"><i class="fas fa-graduation-cap icon"></i>Education</h2>
-                <p><strong>MBA</strong> - Georgia Southern University (2015-2017)</p>
-                <p><strong>BBA Marketing</strong> - Augusta University (1995-2000)</p>
+                <h2 class="section-title text-white" id="education"><i class="fas fa-graduation-cap icon"></i>Education
+                </h2>
+                <p>
+                    <img src="images/gasouthern.jpg"
+                        class="eduGA-icon" width="20" alt="GA Southern University Logo"> <strong>MBA</strong> - Georgia
+                    Southern University (2015-2017)
+                </p>
+
+                <p>
+
+                <img src="images/augusta.png"
+                    class="eduAugusta-icon" width="20" alt="Augusta University Logo"> <strong>BBA Marketing</strong> -
+                Augusta University (1995-2000)</p>
+                <p>
+
+                <h2 class="section-title text-white"><i class="fas fa-certificate icon"></i>Certifications</h2>
+                <ul>
+
+                   <li>Certified Scrum Master (PSM 1) <img src="images/psm-400x400.png" width="25" alt="PSM1 logo"></li> 
+
+                </ul>
+
+                <h2 class="section-title text-white"><i class="fas fa-laptop-code icon"data-bs-toggle="tooltip" title="Programming Languages & Tools"></i> Programming Languages & Tools</h2>
+                <ul>
+                    <p><img src="images/playwright-logo.svg" width="45" alt="Playwright"data-bs-toggle="tooltip" title="Playwright">   <img src="images/html-js-css.jpg" width="45" alt="html-js-css" data-bs-toggle="tooltip" title="html-js-css"> <img src="images/reactjs.png" width="35" alt="Reactjs"data-bs-toggle="tooltip" title="Reactjs"> <img src="images/bootstrapicon.jpg" width="45" alt="bootstrap"data-bs-toggle="tooltip" title="Bootstrap"> </p> 
+
+                    <p><img src="images/sql servericon.png" width="45" alt="SQL Server"data-bs-toggle="tooltip" title="SQL Server"> <img src="images/visual studio.jpg" width="45" alt="Visual Studio"data-bs-toggle="tooltip" title="Visual Studio"> <img src="images/azure devops.jpg" width="45" alt="Azure DevOps"data-bs-toggle="tooltip" title="Azure DevOps"> <img src="images/githubicon.png" width="45" alt="github"data-bs-toggle="tooltip" title="Github"> </p>
+
+                    <p><img src="images/giticon.png" width="45" alt="git"data-bs-toggle="tooltip" title="Git"> <img src="images/postman-logo-icon-orange.svg" width="45" alt="postman"data-bs-toggle="tooltip" title="Postman"> <img src="images/jmeter icon.png" width="45" alt="jmeter"data-bs-toggle="tooltip" title="JMeter"> <img src="images/selenium.png" width="45" alt="selenium"data-bs-toggle="tooltip" title="Selenium"> </p>
+                   
+                </ul>
             </div>
+
             <div class="col-md-8 resume-container">
                 <div class="text-center">
                     <h1>Anthony Davis</h1>
                     <p class="contact-info">
-                        <i class="fas fa-map-marker-alt"></i> 723 Spotswood Dr. Evans, GA 30809 | 
-                        <i class="fas fa-phone"></i> 404-759-0010 | 
-                        <i class="fas fa-envelope"></i> <a href="mailto:Alee.davis@gmail.com">Alee.davis@gmail.com</a>
                     </p>
-                    <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/anthonydavisqa">LinkedIn Profile</a></p>
+                    <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/anthonydavisqa">LinkedIn
+                            Profile</a></p>
                 </div>
                 <hr>
-                <h2 class="section-title"><i class="fas fa-user icon"></i>Summary</h2>
-                <p>Over 20 years as a Technology Leader specializing in Quality Assurance, Release Management, Project Management, and Scrum...</p>
+
                 <h2 class="section-title"><i class="fas fa-briefcase icon"></i>Experience</h2>
                 <div class="mb-3">
-                    <h4>Director of Quality Assurance - TaxSlayer (2018-Present)</h4>
+                    <h4>Director of Quality Assurance - TaxSlayer <img src="images/taxslayer.png" width="20" alt="taxslayer"data-bs-toggle="tooltip" title="TaxSlayer"> (2018-Present)</h4>
                     <ul>
-                        <li>Ensuring quality for all TaxSlayer products</li>
-                        <li>Reduced escaped bugs by 15% YoY for 3 years</li>
-                        <li>Implemented 60+ Playwright tests in Azure DevOps pipelines</li>
+                        <li>Met delivery deadlines and maintained quality standards with a YOY estimated feature and
+                            product
+                            increase of 25% without increasing staff.</li>
+                        <li>15% escaped bug reduction YoY for the past 3 years across multiple products by making
+                            incremental process changes.</li>
+                        <li>Implemented 60+ Playwright tests in Azure DevOps pipelines.</li>
+                        <li>Increased testing efficiency by 95% through automation of regression suites.</li>
+                        <li>Implemented a performance testing program, resulting in a 300% increase in throughput.</li>
                     </ul>
                 </div>
+
                 <div class="mb-3">
-                    <h4>Project Management Director/Scrum Master - TaxSlayer (2017-2018)</h4>
+                    <h4>Project Management Director/Scrum Master - TaxSlayer <img src="images/taxslayer.png" width="20" alt="taxslayer"data-bs-toggle="tooltip" title="TaxSlayer"> (2017-2018)</h4>
                     <ul>
-                        <li>Successfully delivered Workful state payroll conversion 2 weeks early</li>
-                        <li>On-time and budget delivery of the TaxSlayer.com E-File process</li>
+                        <li>Project Manager and Scrum Master for Business Solutions and Consumer Products.</li>
+                        <li>Successfully delivered Workful state payroll conversion 2 weeks early.</li>
+                        <li>On-time and budget delivery of the TaxSlayer.com E-File process.</li>
                     </ul>
                 </div>
+
+                <div class="mb-3">
+                    <h4>Director TaxSlayer Pro Project Management/Scrum Master - TaxSlayer <img src="images/taxslayer.png" width="20" alt="taxslayer"data-bs-toggle="tooltip" title="TaxSlayer"> (2014-2017)</h4>
+                    <ul>
+                        <li>Managed multiple development teams across multiple interrelated products to meet project
+                            deliverables.</li>
+                        <li>Responsible for the oversight of all TaxSlayer Pro projects ensuring that capacity is
+                            properly
+                            planned, risks are identified and mitigated, requirements and design are documented.</li>
+                        <li>Acting scrum master by removing impediments to progress.</li>
+                        <li>Delivered software on-time every year.</li>
+                        <li>Responsible for Release Management of TaxSlayer Pro’s suite of products.</li>
+                        <li>Won company annual award “Most Productive Division Head 2014”.</li>
+                    </ul>
+                </div>
+
+                <div class="mb-3">
+                    <h4>Director of Quality Assurance / TaxSlayer <img src="images/taxslayer.png" width="20" alt="taxslayer"data-bs-toggle="tooltip" title="TaxSlayer">, Augusta, GA (2013-2014)</h4>
+                    <ul>
+                        <li>Created an Issue tracking/ticketing system using share point, to elimate paper
+                            communications.
+                        </li>
+                        <li>Coached and mentored a team of testers in testing techniques and Quality Assurance processes
+                            and
+                            methodologies.</li>
+                        <li>Collaborated with Support, Product Management and Software Development to drive changes and
+                            achieve high quality products.</li>
+                        <li>Reduced testing cycles with automated testing.</li>
+                    </ul>
+                </div>
+
+                <div class="mb-3">
+                    <h4>Sr. Automation Tester / Brightree<img src="images/brightree.png" width="45" alt="Brightree"data-bs-toggle="tooltip" title="Brightree"> , Norcross, GA (2009-2013)</h4>
+                    <ul>
+                        <li>Created the Automation framework for the Brightree UI using HP Quick Test Professional and Sahi.
+                        </li>
+                        <li>Led the testing of major Brightree functions (Point of Sale, Payment on Account, ePurchasing).</li>
+                        <li>Automated API tests using SoapUI Pro (Approx. 600 tests that were not feasible for manual execution and covered 95% of code.).</li>
+                    </ul>
+                </div>
+
+                <div class="mb-3">
+                    <h4>Sr, QA Analyst / Checkfree/Fiserv<img src="images/fiserv.png" width="45" alt="fiserv"data-bs-toggle="tooltip" title="Fiserv">, Norcross, GA (2007-2009)</h4>
+                    <ul>
+                        <li>Converted Quality Center test cases to Business Process Tests and evaluated Business Process Test components for Automation.
+                        </li>
+                        <li>Led the automation of BPT components using Mercury QTP and FATE.</li>
+                        <li>Managed offshore resources for Automation efforts.</li>
+                        <li>Led PCI compliance efforts and security testing using IBM Rational AppScan.</li>
+                    </ul>
+                </div>
+
+                <div class="mb-3">
+                    <h4>Software QA Manager / NetBank<img src="images/netbank.png" width="35" alt="netbank"data-bs-toggle="tooltip" title="NetBank">, Alpharetta, GA (2006-2007)</h4>
+                    <ul>
+                        <li>Led the testing and implementation of Intelligent Authentication. 
+                        </li>
+                        <li>Responsible for estimating QA testing hours and resource planning. </li>
+                        <li>Configuration Management and version control of QA and UAT Voyager banking application. </li>
+                        <li>Responsible for maintaining and troubleshooting the QA and UAT environments.</li>
+                        <li>Scheduled turnover meetings for code releases to QA and production. </li>
+                        <li>Organized test results, test plans, and production change documentation for audit review. </li>
+                    </ul>
+                </div>
+
+
             </div>
         </div>
-    </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
+</html>
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
