@@ -134,19 +134,6 @@ export class USPSpage extends BasePage {
         await button.click();
     }
 
-    // findBtn: string = '//a[@id*="zip"]';
-    // async clickFindBtn() {
-    //     const button = this.page.locator(this.findBtn).first();
-    //     await button.waitFor({
-    //         state: "visible",
-    //         timeout: 15000
-    //     });
-    //     await button.click();
-    // }
-
-    
-        
-    
 
     byAddressBtn: string = '//*[text()="Find by Address"]';
     async click_findbyAddress() {
