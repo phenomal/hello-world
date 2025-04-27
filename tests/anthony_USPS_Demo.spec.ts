@@ -4,6 +4,7 @@ import { USPSpage } from './usps_demo/usps/pages';
 
 
 test('USPS_ZIPCODE_Search', async ({ page }) => {
+  await page.setViewportSize({ width: 1920, height: 1080 }); // Set screen size here
   test.setTimeout(80000);
   const usps = new USPSpage(page);
   const basePage = new BasePage(page);
