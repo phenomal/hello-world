@@ -28,6 +28,6 @@ export const projectsLocators = {
   ...homeLocators,
   mainHeading: 'h1:has-text("Anthony\'s Portfolio")',
   websiteSection: 'h1:has-text("this website")',
-  uspsSection: 'h1:has-text("usps.com automation demo")',
+  uspsSection: 'h1:has-text("usps.com Playwright Demo")',
   projectImages: 'img'
 };
