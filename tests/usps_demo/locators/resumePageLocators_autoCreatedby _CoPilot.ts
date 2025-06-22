@@ -1,0 +1,16 @@
+export const resumePageLocators = {
+  navHome: 'a[href="/home"]',
+  navResume: 'a[href="/resume"]',
+  navProjects: 'a[href="/projects"]',
+  navGitHub: 'a[href="https://github.com/phenomal/hello-world"]',
+  skillsHeading: 'h2:has-text("Skills")',
+  skillsList: 'ul > li',
+  educationHeading: 'h2:has-text("Education")',
+  degreeMBA: 'strong:has-text("MBA")',
+  degreeBBA: 'strong:has-text("BBA Marketing")',
+  certificationsHeading: 'h2:has-text("Certifications")',
+  certificationList: 'ul > li',
+  programmingHeading: 'h2:has-text("Programming Languages & Tools")',
+  experienceHeading: 'h2:has-text("Experience")',
+  jobHeadings: 'h4',
+};

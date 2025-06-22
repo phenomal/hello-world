@@ -1,0 +1,6 @@
+Test Case ID,Page,Test Description,Test Steps,Expected Result
+TC-001,Home,Verify navigation links,"1. Open Home\n2. Check all nav links are visible and clickable","All links present and navigate to correct pages"
+TC-002,Home,Verify main heading and subtitle,"1. Open Home\n2. Check h1 and subtitle text","Text matches expected"
+TC-003,Resume,Verify Skills section,"1. Open Resume\n2. Check Skills heading and list items","All skills listed as expected"
+TC-004,Resume,Verify Education section,"1. Open Resume\n2. Check Education heading and degree info","Degrees and schools match expected"
+TC-005,Projects,Verify project sections and images,"1. Open Projects\n2. Check for project headings and images","All projects and images present"
