@@ -5,7 +5,7 @@ export const projectsPageLocators = {
   navGitHub: 'a[href="https://github.com/phenomal/hello-world"]',
   mainHeading: 'h1:has-text("Anthony\'s Portfolio")',
   websiteSection: 'h1:has-text("this website")',
-  uspsSection: 'h1:has-text("usps.com automation demo")',
+  uspsSection: 'h1:has-text("usps.com Playwright Demo")',
   htmlJsCssImg: 'img[alt="html-js-css"]',
   playwrightImg: 'img[alt="Playwright"]',
 };
